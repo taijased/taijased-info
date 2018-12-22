@@ -25,5 +25,6 @@ yarn run test
 yarn run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### links
+
+* [euvl/vue-js-modal](http://vue-js-modal.yev.io/) - Vue.js Modal
