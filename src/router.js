@@ -5,6 +5,7 @@ import Router from 'vue-router'
 Vue.use(Router)
 
 const Portfolio = () => import('./views/Portfolio.vue')
+const About = () => import('./views/About.vue')
 const Index = () => import('./views/Index.vue')
 export default new Router({
   mode: 'history',
@@ -19,6 +20,11 @@ export default new Router({
           path: '/Portfolio',
           name: 'portfolio',
           component: Portfolio
+        },
+        {
+          path: '/about',
+          name: 'about',
+          component: About
         }
       ]
     },

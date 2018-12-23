@@ -1,3 +1,18 @@
 {
-  "message": "hello i18n !!"
+  "internationalization": {
+    "title": "Русская версия"
+  },
+  "controls": {
+    "about": "About me",
+    "portfolio": "My Portfolio",
+    "system": "Stack"
+  },
+  "error404": {
+    "subtitle": "Page Not Found",
+    "btntitle": "Take me out of here"
+  },
+  "about": {
+    "hello": "Hey, I'm",
+    "name": "Maxim Spiridonov"
+  }
 }

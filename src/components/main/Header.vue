@@ -1,17 +1,13 @@
 <template>
-  <div class="container fade-in-top">
+  <div class="fade-in-top">
     <div class="internationalization noselect">
       <div @click="setLocalization()">{{$t("internationalization.title")}}</div>
     </div>
   </div>
 </template>
 <script>
-import IconBase from "./IconBase";
 
 export default {
-  components: {
-    IconBase
-  },
   methods: {
     setLocalization() {
       this.$i18n.locale = this.$i18n.locale === "ru" ? "en" : "ru";
@@ -21,7 +17,6 @@ export default {
 </script>
 
 <style lang="less" scoped>
-@import url('../styles/variables.less');
 @lb: 35%;
 @rb: 65%;
 
@@ -38,51 +33,23 @@ export default {
 @time: 1s;
 @time-description: .25s;
 
-.container {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  width: 100%;
-  color: rgba(0, 0, 0, 1);
-  font-family: TT Norms Medium;
-  padding: 0 8%;
-  .header-logo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    cursor: pointer;
-    img {
-      width: 30px;
-      height: 30px;
-    }
-    .header-logo-title {
-      margin-left: @ml;
-      text-transform: uppercase;
-      font-family: Avenir Next Cyr Demi;
-      font-size: 20px;
-      @media @xs {
-        font-size: 14px;
-      }
-    }
-  }
-  .internationalization {
+.internationalization {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: rgba(0, 0, 0, 0.3);
+    color: rgba(255, 255, 255, 1);
     transition: color @time-description ease-in-out;
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: bold;
     cursor: pointer !important;
     @media @xs {
-      font-size: 14px;
+        font-size: 14px;
     }
-    font-family: TT Norms Medium;
-  }
-  .internationalization:hover {
-    color: rgba(0, 0, 0, 1);
-    transition: color @time-description ease-in-out;
-  }
+    &:hover {
+        color: rgba(255, 255, 255, 1);
+        transition: color @time-description ease-in-out;
+    }
+}
   @media @xs {
     .internationalization:hover {
       color: rgba(0, 0, 0, 0.3);
@@ -95,7 +62,6 @@ export default {
     -o-user-select: none;
     user-select: none;
   }
-}
 .fade-in-top {
   -webkit-animation: fade-in-top @time cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: fade-in-top @time cubic-bezier(0.39, 0.575, 0.565, 1) both;

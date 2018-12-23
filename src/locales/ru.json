@@ -1,3 +1,18 @@
 {
-  "message": "hello i18n !!"
+  "internationalization": {
+    "title": "Switch to English"
+  },
+  "controls": {
+    "about": "Обо мне",
+    "portfolio": "Проекты",
+    "system": "Навыки"
+  },
+  "error404": {
+    "subtitle": "Страница не найдена",
+    "btntitle": "Вернуться на главную"
+  },
+  "about": {
+    "hello": "Привет, меня зовут",
+    "name": "Максим Спиридонов"
+  }
 }

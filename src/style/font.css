@@ -14,3 +14,7 @@
     font-family: 'RobotoLight';
     src: url('../assets/font/Roboto-Light.ttf')  format('truetype');
 }
+@font-face {
+    font-family: 'RobotoItalic';
+    src: url('../assets/font/Roboto-Italic.ttf')  format('truetype');
+}
