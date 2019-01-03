@@ -115,9 +115,9 @@ h1+p, p+p
     transform: translateY(40%)
     transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1)
     h2
-        font-size: 36px
+        font-size: 30px
         font-weight: 700
-        line-height 24px
+        line-height 30px
         text-align left
         text-shadow: rgba(black, 0.5) 0 10px 10px
     p

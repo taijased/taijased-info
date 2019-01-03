@@ -1,12 +1,12 @@
 <template>
     <nav class="controls-container">
-        <router-link to="/about">
+        <router-link to="/">
             <div class="controls">{{$t("controls.about")}}</div>
         </router-link>
         <router-link to="/portfolio">
             <div class="controls">{{$t("controls.portfolio")}}</div>
         </router-link>
-        <router-link to="/system">
+        <router-link to="/stack">
             <div class="controls">{{$t("controls.system")}}</div>
         </router-link>
     </nav>

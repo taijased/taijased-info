@@ -1,6 +1,6 @@
 <template>
     <div class="pagination fade-in-right">
-        <router-link to="/about">
+        <router-link to="/">
             <div class="pagination-item"></div>
         </router-link>
         <router-link to="/portfolio">

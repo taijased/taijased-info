@@ -1,31 +1,28 @@
-<template>
-  <div class="wrapper">
-        <header>
-            <Header/>
-        </header>
-        <main>
-            <transition 
-                name="fade"
-                mode="out-in"
-                :css="true">
-                <router-view/>
-            </transition>
-            <NavPagination/>
-        </main>
-        <footer>
-            <Footer/>
-        </footer>xs
-    </div>
+<template lang="pug">
+    .wrapper
+        header 
+            Header 
+        main 
+            transition(name="fade", mode="out-in", :css="true")
+                router-view
+        footer
+            Footer
+        //- AboutContent(:show="true")
+        ProjectContent(:show="true")
 </template>
 <script>
 import Header from '../components/main/Header'
 import Footer from '../components/main/Footer'
 import NavPagination from '../components/main/NavPagination'
+import AboutContent from '../components/content/AboutContent'
+import ProjectContent from '../components/content/ProjectContent'
+
 export default {
     components: {
        Header,
        Footer,
-       NavPagination
+       AboutContent,
+       ProjectContent
     }
 }
 </script>
@@ -40,7 +37,7 @@ $time-description = .25s
     display grid
     height 100vh
     grid-template-rows 95vh 5vh
-    overflow hidden
+    // overflow hidden
     header 
         // grid-row 1
         // display flex

@@ -7,6 +7,8 @@ Vue.use(Router)
 const Portfolio = () => import('./views/Portfolio.vue')
 const About = () => import('./views/About.vue')
 const Index = () => import('./views/Index.vue')
+const Stack = () => import('./views/Stack.vue')
+const ProjectContent = () => import('./components/content/ProjectContent.vue')
 export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
@@ -19,12 +21,24 @@ export default new Router({
         {
           path: '/Portfolio',
           name: 'portfolio',
-          component: Portfolio
+          component: Portfolio,
+          children: [
+            {
+              path: '',
+              name: 'portfoliocontent',
+              component: ProjectContent
+            }
+          ]
         },
         {
-          path: '/about',
+          path: '/',
           name: 'about',
           component: About
+        },
+        {
+          path: '/stack',
+          name: 'stack',
+          component: Stack
         }
       ]
     },
