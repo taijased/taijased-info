@@ -8,7 +8,8 @@
         footer
         //-   Footer
         AboutContent(:show="true")
-        ProjectContent(:show="true")
+        //- ProjectContent(:show="true")
+        PlanContent
 </template>
 <script>
 import Header from '../components/main/Header'
@@ -16,13 +17,14 @@ import Footer from '../components/main/Footer'
 import NavPagination from '../components/main/NavPagination'
 import AboutContent from '../components/content/AboutContent'
 import ProjectContent from '../components/content/ProjectContent'
+import PlanContent from '../components/content/PlanContent'
 
 export default {
     components: {
        Header,
        Footer,
        AboutContent,
-       ProjectContent
+       PlanContent
     }
 }
 </script>

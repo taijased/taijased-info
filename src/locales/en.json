@@ -13,6 +13,44 @@
   },
   "about": {
     "hello": "Hey, I'm",
-    "name": "Maxim Spiridonov"
+    "name": "Maxim Spiridonov",
+    "about": "About me",
+    "content": "Hello dears! My name is Maxim I am Front-end developer.Since the first time I saw on the screen \"Hello world!\"I realized that this is what I want to devote myself to! Since then has flowed away a lot of lines of code.",
+    "slide_bisness": {
+      "title": "My key functional responsibilities are:",
+      "li_1": "project development (frontend part) from scratch;",
+      "li_2": "revision of existing projects;",
+      "li_3": "development of business logic and back-end system for product support;",
+      "li_4": "user interface design;",
+      "li_5": "the creation of a functional API (joint work with front-end developers);",
+      "li_6": "cross-browser and adaptive HTML5/CSS3 layout."
+    },
+    "slide_goal": {
+      "title": "at this stage of my life my main task and goal is to reach the top in Web - development. To do this, I always learn new technologies and thereby improve my skills and knowledge. And of course, a little about personal qualities:",
+      "li_1": "commitment;",
+      "li_2": "perseverance;",
+      "li_3": "liability;",
+      "li_4": "sociability;",
+      "li_5": "the ability to work in a team;",
+      "li_6": "attention to detail."
+    }
+  },
+  "plan": {
+    "card_1": {
+      "title": "Discussion",
+      "desc": "the Basis of the application being created? The main objectives of the site? Target audience? What results do you want to get with it? Main theme? The answers to these and other questions determine what our product will be."
+    },
+    "card_2": {
+      "title": "Concept creation",
+      "desc": "where is it more convenient to place the elements of the site design? How to make navigation as easy and convenient as possible? How to achieve maximum usability. Solving these issues leads to several design options."
+    },
+    "card_3": {
+      "title": "Development",
+      "desc": "Wow! This is the most desperate stage. Where kodyat, pedaled, are programmed, sawing code, swearing happens... the end result being a beautiful, cross-browser, adaptive, fast, easy to use website."
+    },
+    "card_4": {
+      "title": "Satisfied customer",
+      "desc": "we Can only be happy with the result. The client to fill the resource with thematic content for further prosperity and promotion of his business in the network."
+    }
   }
 }
