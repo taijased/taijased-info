@@ -1,13 +1,13 @@
 <template lang="pug">
     .wrapper
         header 
-            Header 
+          Header 
         main 
-            transition(name="fade", mode="out-in", :css="true")
-                router-view
+          transition(name="fade", mode="out-in", :css="true")
+            router-view
         footer
-            Footer
-        //- AboutContent(:show="true")
+        //-   Footer
+        AboutContent(:show="true")
         ProjectContent(:show="true")
 </template>
 <script>
@@ -52,7 +52,7 @@ $time-description = .25s
         z-index 999
     main 
         grid-row 1
-        background url(https://i.pinimg.com/originals/a7/9d/1e/a79d1e3e8003506c6523f0297ed8f8a1.jpg)
+        background url(../assets/main-bg.jpg)
         background-repeat no-repeat
         background-size cover
         background-position center

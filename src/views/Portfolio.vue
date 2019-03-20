@@ -1,32 +1,15 @@
 <template lang="pug">
     .card-container
-        card(
-            data-image='https://images.unsplash.com/photo-1479660656269-197ebb83b540?dpr=2&auto=compress,format&fit=crop&w=1199&h=798&q=80&cs=tinysrgb&crop=', 
-            title='kznlive.ru', 
-            description='Cвежие новости Казани, Татарстана, России и мира',
-            @click.native='openCard')
-        card(
-            data-image='https://images.unsplash.com/photo-1479660656269-197ebb83b540?dpr=2&auto=compress,format&fit=crop&w=1199&h=798&q=80&cs=tinysrgb&crop=', 
-            title='kznlive.ru', 
-            description='Описание данной компании краткое какое нибудь',
-            @click.native='openCard')
-        CardModal
+        h1  Hello Portfolio
 </template>
 
 <script>
 
 import Card from '../components/Card'
-import CardModal from '../components/modal/CardModal'
 
 export default {
-    methods: {
-        openCard () {
-            this.$modal.show('card-modal');
-        }
-    },
     components: {
-        Card,
-        CardModal
+        Card
     }
 }
 </script>
