@@ -6,25 +6,25 @@
           transition(name="fade", mode="out-in", :css="true")
             router-view
         footer
-        //-   Footer
-        AboutContent(:show="true")
-        //- ProjectContent(:show="true")
+        AboutContent
         PlanContent
+        ProjectContent
+        // Contacts
 </template>
 <script>
 import Header from '../components/main/Header'
-import Footer from '../components/main/Footer'
-import NavPagination from '../components/main/NavPagination'
 import AboutContent from '../components/content/AboutContent'
 import ProjectContent from '../components/content/ProjectContent'
 import PlanContent from '../components/content/PlanContent'
+import Contacts from '../components/content/Contacts'
 
 export default {
     components: {
        Header,
-       Footer,
        AboutContent,
-       PlanContent
+       PlanContent,
+       ProjectContent,
+       Contacts
     }
 }
 </script>

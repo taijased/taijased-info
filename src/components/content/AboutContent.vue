@@ -37,19 +37,6 @@
                         img(src="../../assets/man.png")
 </template>
 
-<script>
-import Card from '../../components/Card'
-
-export default {
-    props: {
-        show: Boolean
-    },
-    components: {
-        Card
-    }
-}
-</script>
-
 <style lang="stylus" scoped>
 $bg-color = #F3B244
 .content 

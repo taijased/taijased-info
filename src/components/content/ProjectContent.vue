@@ -1,5 +1,6 @@
 <template lang="pug">
     .container
+        .container__title Портфолио
         .card-container
             card(
                 data-image='http://prof-abs.ru/upload/iblock/108/108a877bae3b1bbe14c902d494acd7d4.jpg', 
@@ -101,18 +102,18 @@
                 .desc-subtitle - Vue
                 .desc-title Обязанности:
                 .desc-subtitle - Разработка элементов интерфейса, верстка сайта
-        //- .card-container
-        //-     card(
-        //-         data-image='https://protrip.ru/wp-content/uploads/2016/09/artleo.com-74103.jpg', 
-        //-         title='ontravel.ips-dev.com', 
-        //-         description='Сайт лендинг')
-        //-     .info-description
-        //-         .desc-title Стек технологий:
-        //-         .desc-subtitle - HTML
-        //-         .desc-subtitle - CSS 
-        //-         .desc-subtitle - JavaScript
-        //-         .desc-title Обязанности:
-        //-         .desc-subtitle - Создание лендинга
+        .card-container
+            .info-description
+                .desc-title Стек технологий:
+                .desc-subtitle - HTML
+                .desc-subtitle - CSS 
+                .desc-subtitle - JavaScript
+                .desc-title Обязанности:
+                .desc-subtitle - Создание лендинга
+            card(
+                data-image='https://protrip.ru/wp-content/uploads/2016/09/artleo.com-74103.jpg', 
+                title='ontravel.ips-dev.com', 
+                description='Сайт лендинг')
 
 </template>
 
@@ -120,9 +121,6 @@
 import Card from '../../components/Card'
 
 export default {
-    props: {
-        show: Boolean
-    },
     components: {
         Card
     }
@@ -131,8 +129,26 @@ export default {
 
 <style lang="stylus">
 $returnEasing = cubic-bezier(0.445, 0.05, 0.55, 0.95)
+$bg-color = #F3B244
 .container 
-    // padding 0 15vw
+    display flex
+    flex-direction column
+    justify-content flex-start
+    align-items center
+    &__title 
+        width 300px
+        height 70px
+        display flex
+        flex-direction row
+        justify-content center
+        align-items center
+        font-family 'RobotoBold'
+        font-style normal 
+        color #676a6c
+        font-size 28px
+        margin 50px 0
+        color white
+        background $bg-color
     .card-container
         display: flex
         flex-wrap: row wrap

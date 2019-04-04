@@ -9,7 +9,7 @@ body
   margin 0
   padding 0
   width 100vw
-  height 100vh
+  // height 100vh
 #app
   font-family 'RobotoRegular', Helvetica, Arial, sans-serif
   -webkit-font-smoothing antialiased

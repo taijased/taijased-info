@@ -26,7 +26,7 @@
       "li_6": "cross-browser and adaptive HTML5/CSS3 layout."
     },
     "slide_goal": {
-      "title": "at this stage of my life my main task and goal is to reach the top in Web - development. To do this, I always learn new technologies and thereby improve my skills and knowledge. And of course, a little about personal qualities:",
+      "title": "Аt this stage of my life my main task and goal is to reach the top in Web - development. To do this, I always learn new technologies and thereby improve my skills and knowledge. And of course, a little about personal qualities:",
       "li_1": "commitment;",
       "li_2": "perseverance;",
       "li_3": "liability;",
@@ -36,13 +36,14 @@
     }
   },
   "plan": {
+    "title": "Stage of work",
     "card_1": {
       "title": "Discussion",
-      "desc": "the Basis of the application being created? The main objectives of the site? Target audience? What results do you want to get with it? Main theme? The answers to these and other questions determine what our product will be."
+      "desc": "The Basis of the application being created? The main objectives of the site? Target audience? What results do you want to get with it? Main theme? The answers to these and other questions determine what our product will be."
     },
     "card_2": {
       "title": "Concept creation",
-      "desc": "where is it more convenient to place the elements of the site design? How to make navigation as easy and convenient as possible? How to achieve maximum usability. Solving these issues leads to several design options."
+      "desc": "Where is it more convenient to place the elements of the site design? How to make navigation as easy and convenient as possible? How to achieve maximum usability. Solving these issues leads to several design options."
     },
     "card_3": {
       "title": "Development",
@@ -50,7 +51,7 @@
     },
     "card_4": {
       "title": "Satisfied customer",
-      "desc": "we Can only be happy with the result. The client to fill the resource with thematic content for further prosperity and promotion of his business in the network."
+      "desc": "We can only be happy with the result. The client to fill the resource with thematic content for further prosperity and promotion of his business in the network."
     }
   }
 }

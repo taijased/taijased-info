@@ -2,32 +2,32 @@
     .plan
         .section_before
         section
-            .section__title План
+            .section__title {{$t("plan.title")}}
             el-row(:gutter='20')
                 el-col(:xs="24", :sm="12", :md="8", :lg="6", :xl="6")
-                   .card
+                   .plan-card
                         div
                             i(class="fas fa-comments fa-5x")
-                        .card__title {{$t("plan.card_1.title")}}
-                        .card__desc {{$t("plan.card_1.desc")}}
+                        .plan-card__title {{$t("plan.card_1.title")}}
+                        .plan-card__desc {{$t("plan.card_1.desc")}}
                 el-col(:xs="24", :sm="12", :md="8", :lg="6", :xl="6")
-                   .card
+                   .plan-card
                         div
                             i(class="fas fa-pencil-alt fa-5x")
-                        .card__title {{$t("plan.card_2.title")}}
-                        .card__desc {{$t("plan.card_2.desc")}}
+                        .plan-card__title {{$t("plan.card_2.title")}}
+                        .plan-card__desc {{$t("plan.card_2.desc")}}
                 el-col(:xs="24", :sm="12", :md="8", :lg="6", :xl="6")
-                   .card
+                   .plan-card
                         div
                             i(class="fas fa-code fa-5x")
-                        .card__title {{$t("plan.card_3.title")}}
-                        .card__desc {{$t("plan.card_3.desc")}}
+                        .plan-card__title {{$t("plan.card_3.title")}}
+                        .plan-card__desc {{$t("plan.card_3.desc")}}
                 el-col(:xs="24", :sm="12", :md="8", :lg="6", :xl="6")
-                   .card
+                   .plan-card
                         div
                             i(class="fas fa-heart fa-5x")
-                        .card__title {{$t("plan.card_4.title")}}
-                        .card__desc {{$t("plan.card_4.desc")}}
+                        .plan-card__title {{$t("plan.card_4.title")}}
+                        .plan-card__desc {{$t("plan.card_4.desc")}}
                     
         .section_after
 </template>
@@ -73,7 +73,7 @@ $bg-color = #F3B244
         flex-direction column
         justify-content center
         align-items center
-        .card
+        .plan-card
             display flex
             flex-direction column
             justify-content center
